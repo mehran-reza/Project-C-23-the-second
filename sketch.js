@@ -40,8 +40,8 @@ function draw() {
   /*edges=createEdgeSprites();
   astronaut.BounceOff(edges);*/
 
-  /*edges=createEdgeSprites();
-  astronaut.bounceOff(edges);*/
+  edges=createEdgeSprites();
+  astronaut.bounceOff(edges);
 
   /*edges=createEdgeSprite();
   astronaut.bounceOff(edges);*/
@@ -79,12 +79,12 @@ function draw() {
     astronaut.velocityY = 0;
   }
 
-  /*if(key Down("m")){
-    astronaut.addAnimation("moving", move);
-    astronaut.changeAnimation("moving");
-    astronaut.velocityX = 1;
-    astronaut.velocityY = 1;
-  }*/
+  //if(key Down("m")){
+    //astronaut.addAnimation("moving", move);
+    //astronaut.changeAnimation("moving");
+    //astronaut.velocityX = 1;
+    //astronaut.velocityY = 1;
+  //}
 
   /*if(keyDown("m")){
     astronaut.addAnimation("moving", move);
@@ -100,11 +100,11 @@ function draw() {
     astronaut.velocityY = 1;
   }*/
 
-  /*if(keyDown("m")){
+  if(keyDown("m")){
     astronaut.addAnimation("moving", move);
     astronaut.changeAnimation("moving");
     astronaut.velocityX = 1;
     astronaut.velocityY = 1;
-  }*/
+  }
 
 }
